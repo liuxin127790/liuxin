@@ -1,0 +1,318 @@
+/*
+* @Author: wo
+* @Date:   2018-11-07 11:06:09
+* @Last Modified by:   wo
+* @Last Modified time: 2018-11-12 23:40:28
+*/
+/* body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+} */
+header{
+	width: 100%;
+	height: 1rem;
+	background: #ea68a2;
+	padding-top: 0.29rem;
+}
+header .boxbtn{
+	width: 7.5rem;
+	margin: 0 auto;
+}
+.left{
+	width: 4.1rem;
+	height: 0.4rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	margin: 0 0 0 1.7rem;
+	padding-left: 0.2rem;
+	float: left;
+	/* padding-right: 0.23rem; */
+}
+header .left .list{
+	float: right;
+	margin-right: 0.2rem;
+}
+.left input{
+	width: 3.1rem;
+	height: 0.4rem;
+	background: none;
+	border: none;
+	float: left;
+    font-size: 0.2rem;
+    /* color: #ea68a2; */
+    margin-left: 0.14rem;
+}
+::-webkit-input-placeholder{
+	color: #ea68a2;
+}
+header img{
+	width: 0.28rem;
+	height: 0.28rem;
+	float: left;
+	margin-top: 0.07rem;
+}
+.right{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	background: #fff;
+	margin-right: 0.48rem;
+	float: right;
+	padding-left: 0.05rem;
+}
+main{
+	width: 7.5rem;
+	height: 100%;
+	padding-bottom: 1.2rem;
+	margin: 0 auto;
+}
+.banner{
+	width: 100%;
+	height: 3.46rem;
+	background: #fff;
+	padding: 0.24rem 0.24rem 0 0.24rem;
+	position: relative;
+}
+.banner img{
+	width: 7.02rem;
+	height: 3.22rem;
+}
+.banner .point{
+	width: 0.77rem;
+	height: 0.1rem;
+    position: absolute;
+    top: 3.26rem;
+    left: 3.34rem;
+}
+.banner .point .dotbox{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 0.05rem;
+	background: #fff;
+	float: left;
+	margin-right: 0.06rem;
+}
+.banner .point .box{
+	background: #ea68a2;
+}
+.banner .point .boxs{
+	margin-right: 0;
+}
+nav ul{
+	width: 100%;
+	height: 3.8rem;
+	background: #fff;
+	padding: 0.32rem 0.34rem 0 0.34rem;
+}
+nav ul li{
+	width: 1.16rem;
+	height: 1.74rem;
+	float: left;
+	margin-right: 0.71rem;
+	font-size: 0.2rem;
+	text-align: center;
+}
+nav ul li:nth-child(4){
+	margin-right: 0;
+}
+nav ul li:nth-child(8){
+	margin-right: 0;
+}
+nav ul li img{
+	width: 1.14rem;
+	height: 1.14rem;
+}
+.guang{
+	width: 7.02rem;
+	height: 3.43rem;
+	background: red;
+	margin-top: 0.45rem;
+	margin-left: 0.24rem;
+}
+.guang img{
+	width: 100%;
+	height: 100%;
+}
+.list{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	margin-top: 0.99rem;
+	position: relative;
+}
+.list img{
+	width: 2.28rem;
+	height: 100%;
+	margin-left: 2.47rem;
+}
+.list .nei{
+	width: 1.9rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 0.56rem;
+	left: 2.8rem;
+	font-size: 0.2rem;
+}
+.list .nei span{
+	color: #ea68a2;
+	font-size: 0.2rem;
+}
+.list .nei b{
+	color: #000000;
+	font-size: 0.22rem;
+}
+.order{
+	width: 100%;
+	height: 0.45rem;
+	margin-top: 0.25rem;
+}
+.order .btn{
+	width: 1.2rem;
+	height: 100%;
+	float: left;
+    border: 0.02rem solid #eb6ca5;
+    color: #ea68a2;
+    margin-right: 0.42rem;
+    border-radius:0.225rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.45rem;
+}
+.order .btn:nth-child(1){
+	color: #fff;
+	background: #eb6ca5;
+	margin-left: 0.42rem;
+}
+.shop{
+	width: 100%;
+	height: 8.5rem;
+	margin-top: 0.4rem;
+}
+.shop li{
+	width: 7.02rem;
+	height: 2.57rem;
+	margin-right: 0.24rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	box-shadow: 0.03rem 0.03rem 0.08rem rgba(0, 0, 0, 0.1);
+	padding: 0.15rem;
+	margin-bottom: 0.24rem;
+	margin-left: 0.24rem;
+}
+.shop li .pic1{
+	width: 1.65rem;
+	height: 2.14rem;
+	display: block;
+	float: left;
+	margin-right: 0.15rem;
+}
+.shop li h3{
+	width: 3rem;
+	height: 0.4rem;
+	font-size: 0.3rem;
+	float: left;
+}
+.shop li .pic2{
+	width: 1.71rem;
+	height: 0.32rem;
+	display: block;
+	float: right;
+	margin-top: 0.07rem;
+	margin-right: 0.07rem;
+}
+.shop li p{
+	width: 4.4rem;
+	height: 0.3rem;
+	font-size: 0.18rem;
+	float: left;
+	font-weight: bold;
+	color: #aaa;
+}
+.shop li i{
+	width: 4.64rem;
+	height: 0.7rem;
+	display: block;
+	float: left;
+	font-size: 0.22rem;
+	color: #666;
+	font-weight: bold;
+	border-top: 1px dotted #ccc;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-oriend: vertical;
+}
+.shop li .pic{
+	height: 0.2rem;
+	display: block;
+	float: left;
+	margin-top: 0.02rem;
+	margin-right: 0.1rem;
+	margin-top: 0.3rem;
+}
+.shop li span{
+	width: 0.9rem;
+	font-size: 0.18rem;
+	color: #aaa;
+	display: block;
+	float: left;
+	margin-top: 0.3rem;
+}
+
+footer{
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+	/* padding: 0 0.52rem; */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	box-shadow: 0 -0.03rem 0.08rem rgba(0, 0, 0, 0.1);
+}
+footer .listbox{
+	margin: 0 auto;
+	width: 7.5rem;
+	height: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content:space-around;
+}
+footer .btn{
+	width: 1.2rem;
+	height: 1.2rem;
+	display: block;
+	float: left;
+	margin-right: 0.54rem;
+	text-align: center;
+	padding-top: 0.2rem;
+	font-size: 0.2rem;
+	position: relative;
+}
+footer .btn:nth-child(4){
+	margin-right: 0;
+}
+footer .btn img{
+	height: 0.48rem;
+	display: block;
+	margin: 0 auto;
+}
+footer .btn span{
+	font-size: 0.24rem;
+	color: #e2e2e2;
+	font-weight: bold;
+}
+footer .btn:nth-child(2) .mes{
+	width: 0.5rem;
+	height: 0.25rem;
+	position: absolute;
+	background: #ea68a2;
+	top: 0.12rem;
+	right: -0.05rem;
+	color: #fff;
+	border-radius: 0.125rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.25rem;
+}

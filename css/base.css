@@ -1,0 +1,19 @@
+/*
+* @Author: wo
+* @Date:   2018-11-07 11:19:46
+* @Last Modified by:   wo
+* @Last Modified time: 2018-11-07 11:22:44
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+i{
+	font-style: normal;
+}
